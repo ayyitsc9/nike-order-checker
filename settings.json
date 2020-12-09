@@ -1,0 +1,9 @@
+{
+    "delay":3,
+    "use_proxies":false,
+    "input_file_name":"orders_to_check.csv",
+    "output_file_name":"order_results.csv",
+    "import":{
+        "bnb_file_name":"bnb_import.csv"
+    }
+}
