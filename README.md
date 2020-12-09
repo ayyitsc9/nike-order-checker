@@ -1,4 +1,5 @@
 # nike-order-checker
+Added exe file for those who do are not familiar with running python scripts! Simply copy all files except the app.py file and run the exe file instead
 Twitter : https://twitter.com/ayyitsc9
 
 Check your nike orders with ease! Use orders_to_check.csv to fill out order email/ order number for the orders you want to run a check on or create your own csv file that is in
