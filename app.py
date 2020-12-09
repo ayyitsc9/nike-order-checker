@@ -219,9 +219,9 @@ while True:
         init()
         for order in orders:
             NikeOrderCheck(order[0], order[1])
-            Logger.success("Finished Order Checker Execution!")
             ctypes.windll.kernel32.SetConsoleTitleW(f"Nike Order Checker ~ By @ayyitsc9 | Success : {str(success)} | Failed : {str(failed)}")
             time.sleep(delay)
+        Logger.success("Finished Order Checker Execution!")
     elif task == "2":
         init()
         Importer.bnb()
